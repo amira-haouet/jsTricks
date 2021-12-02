@@ -1,11 +1,13 @@
 .division {
+    /*The font-weight property defines how bold you text are*/
     font-weight: 700;
+    /*The font-size property sets the size of a font*/
     font-size: 3.5em;
-    text-align: center;
   }
   
   .division .text {
     position: relative;
+    /* display: inline-block => allows to set a width and height on the element*/
     display: inline-block;
     padding-top: 0.1em;
     padding-right: 0.05em;
