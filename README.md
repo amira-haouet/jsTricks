@@ -1,6 +1,6 @@
-## some Tricks for js 
-using HTML & CSS & JS 
+### some Tricks for js 
+Using HTML & CSS & JS 
 
-## Reference 
-https://www.w3schools.com/
-https://cdnjs.com/
+### Reference 
+<li> https://www.w3schools.com/ </li>
+<li> https://cdnjs.com/ </li>
