@@ -1,2 +1,2 @@
 # some Tricks for js 
-using native languages 
+using HTML & CSS & JS 
