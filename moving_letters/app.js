@@ -8,6 +8,7 @@ anime.timeline({loop: true})
     targets: '.division .line',
     scaleY: [0,1],
     opacity: [0.5,1],
+   // In animation and games, it can be seen that many objects are moving from one point to another linearly
     easing: "easeOutExpo",
     duration: 500
   })
