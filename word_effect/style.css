@@ -3,3 +3,8 @@ position: relative;
 font-weight: 700;
 font-size: 20px;
 }
+
+.cls .word {
+position :absolute;
+margin :auto;
+}
