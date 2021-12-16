@@ -7,8 +7,8 @@
 .cls .word {
     position: absolute;
     margin: auto;
-    opacity: 0;
     left: 0;
     top: 0.3em;
     right: 0;
+    opacity: 0;
 }
