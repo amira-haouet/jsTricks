@@ -1,4 +1,4 @@
-var cls = {}
+var cls = {};
 
 cls.opacityIn = [0, 1]
 cls.opacityOut = []
