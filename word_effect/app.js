@@ -2,8 +2,8 @@ var cls = {}
 
 cls.opacityIn = [0, 1]
 cls.opacityOut = []
-cls.durationOut = 900;
-cls.durationIn = 700;
+cls.durationOut = 600;
+cls.durationIn = 800;
 cls.delay = 500;
 cls.scaleIn[0.2, 1]
 cls.scaleOut = 3;
