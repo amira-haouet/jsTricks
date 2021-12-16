@@ -14,10 +14,22 @@ anime.timeline({loop:true})
     opacity: cls.opacityIn,
     scale: cls.scaleIn,
     duration: cls.durationIn
-  }).add({   targets: '.ml4 .letters-1',
+  }).add({   targets: '.ml4 .word-1',
   opacity: 0,
   scale: cls.scaleOut,
   duration: cls.durationOut,
   easing: "easeInExpo",
   delay: cls.delay
-})
+}).add({
+    targets: '.ml4 .letters-2',
+    opacity: ml4.opacityIn,
+    scale: ml4.scaleIn,
+    duration: ml4.durationIn
+  }).add({
+    targets: '.ml4 .letters-2',
+    opacity: 0,
+    scale: ml4.scaleOut,
+    duration: ml4.durationOut,
+    easing: "easeInExpo",
+    delay: ml4.delay
+  })
