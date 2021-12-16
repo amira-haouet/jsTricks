@@ -44,4 +44,9 @@ anime.timeline({loop:true})
     duration: ml4.durationOut,
     easing: "easeInExpo",
     delay: ml4.delay
-  })
+  }).add({
+    targets: '.ml4',
+    opacity: 0,
+    duration: 500,
+    delay: 500
+  });
