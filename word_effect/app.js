@@ -21,15 +21,15 @@ anime.timeline({loop:true})
   easing: "easeInExpo",
   delay: cls.delay
 }).add({
-    targets: '.ml4 .letters-2',
-    opacity: ml4.opacityIn,
-    scale: ml4.scaleIn,
-    duration: ml4.durationIn
+    targets: '.cls .word-2',
+    opacity: cls.opacityIn,
+    scale: cls.scaleIn,
+    duration: cls.durationIn
   }).add({
-    targets: '.ml4 .letters-2',
+    targets: '.cls .word-2',
     opacity: 0,
-    scale: ml4.scaleOut,
-    duration: ml4.durationOut,
+    scale: cls.scaleOut,
+    duration: cls.durationOut,
     easing: "easeInExpo",
-    delay: ml4.delay
+    delay: cls.delay
   })
