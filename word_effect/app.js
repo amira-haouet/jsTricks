@@ -10,8 +10,8 @@ cls.scaleOut = 3;
 
 anime.timeline({loop:true})
 .add({
-    targets: '.cls .letters-1',
-    opacity: ml4.opacityIn,
-    scale: ml4.scaleIn,
-    duration: ml4.durationIn
+    targets: '.cls .word-1',
+    opacity: cls.opacityIn,
+    scale: cls.scaleIn,
+    duration: cls.durationIn
   }).add({
