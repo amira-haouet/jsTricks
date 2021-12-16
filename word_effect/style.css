@@ -1,11 +1,14 @@
 .cls {
-position: relative;
-font-weight: 700;
-font-size: 20px;
+    position: relative;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .cls .word {
-position :absolute;
-margin :auto;
-opacity: 0;
+    position: absolute;
+    margin: auto;
+    opacity: 0;
+    left: 0;
+    top: 0.3em;
+    right: 0;
 }
