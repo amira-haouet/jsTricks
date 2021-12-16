@@ -32,4 +32,9 @@ anime.timeline({loop:true})
     duration: cls.durationOut,
     easing: "easeInExpo",
     delay: cls.delay
+  }).add({
+    targets: '.ml4 .letters-3',
+    opacity: ml4.opacityIn,
+    scale: ml4.scaleIn,
+    duration: ml4.durationIn
   })
