@@ -1,4 +1,7 @@
 var cls = {};
+var text = document.querySelector('.cls .word');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
 
 cls.opacityIn = [0, 1];
 cls.scaleIn[0.2, 1];
